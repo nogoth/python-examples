@@ -1,0 +1,4 @@
+import sys
+import random
+
+print "".join(sorted(sys.stdin.readlines(), cmp=lambda x,y: cmp(random.random(),0.5) ) )
